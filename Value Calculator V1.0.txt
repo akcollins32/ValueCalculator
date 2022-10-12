@@ -1,0 +1,12 @@
+10/11/22
+
+V1.0
+
+- Added tab header
+- About, Explore, Cases tabs added
+- reset button now resets table and orders selected, but leaves the location as whatever the user had selected previously
+- moved the selectizeinput for orders to the server side
+	- was suggested by R to improve performance and it did
+	- watch for weird text processing issues (Radiologic --> riologic, idk why but resloved with refreshing app)
+- Change from sidepanel layout to fluid page which allows for more flexibility.
+- Calculator had to be recreated for the cases, had to create second table, values, location etc (all inputs and outputs needed a modification to show up properly)
